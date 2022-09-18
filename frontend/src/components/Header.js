@@ -13,11 +13,11 @@ const Header = () => {
             <Nav className="ml-auto">
               <Nav.Link href="/cart">
                 {" "}
-                <i class="fa-sharp fa-solid fa-cart-shopping"></i> CART
+                <i className="fa-sharp fa-solid fa-cart-shopping"></i> CART
               </Nav.Link>
               <Nav.Link href="/login">
                 {" "}
-                <i class="fa-solid fa-user"></i> Sign In
+                <i className="fa-solid fa-user"></i> Sign In
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

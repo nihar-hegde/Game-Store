@@ -34,7 +34,7 @@ const products = [
     category: "game",
     price: 4000.99,
     countInStock: 5,
-    rating: 3,
+    rating: 4.5,
     numReviews: 12,
   },
   {
