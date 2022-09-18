@@ -1,10 +1,6 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -14,9 +10,15 @@ const Header = () => {
           <Navbar.Brand href="/">GameStore</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="/cart">CART</Nav.Link>
-              <Nav.Link href="/login">Sign In</Nav.Link>
+            <Nav className="ml-auto">
+              <Nav.Link href="/cart">
+                {" "}
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i> CART
+              </Nav.Link>
+              <Nav.Link href="/login">
+                {" "}
+                <i class="fa-solid fa-user"></i> Sign In
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
