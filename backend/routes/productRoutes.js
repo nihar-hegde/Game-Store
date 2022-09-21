@@ -7,6 +7,7 @@ const router = express.Router();
 //@desc Fetch all products
 //@route it is a GET request to api/product
 //@access a public rote
+//
 
 router.get(
   "/",
