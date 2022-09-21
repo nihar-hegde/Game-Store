@@ -65,7 +65,7 @@ const products = [
       "Valorant is a free to play game with very engaging gamemodes like 5v5 and many more",
     brand: "Riot",
     category: "game",
-    price: "Free",
+    price: 0.0,
     countInStock: 0,
     rating: 4,
     numReviews: 12,
