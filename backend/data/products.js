@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Battlefield",
     image: "/images/battlefield.jpg",
     description: "Mulitplayer war game with may modern wepons and gamemodes",
@@ -12,7 +11,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "2",
     name: "Call of Duty MW2",
     image: "/images/codmw2.jpg",
     description:
@@ -25,7 +23,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "3",
     name: "Forza Horizon 4",
     image: "/images/forza.jpg",
     description:
@@ -38,7 +35,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "4",
     name: "Sony Playstation 4 Pro White Version",
     image: "/images/playstation.jpg",
     description:
@@ -51,7 +47,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "5",
     name: "Logitech G-Series Gaming Mouse",
     image: "/images/mouse.jpg",
     description:
@@ -64,7 +59,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "6",
     name: "valorant",
     image: "/images/valorant.jpg",
     description:
